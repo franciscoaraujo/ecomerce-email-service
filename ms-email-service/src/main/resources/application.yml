@@ -1,0 +1,33 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIA47MUMLJRHPOXRPAC
+      secret-key: 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
+    end-point:
+      uri: msg-email-ecomerce
+
+spring:
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
+    host: smtp.gmail.com
+    username: 'e2dp.tecnologic@gmail.com'
+    password: ''
+    port: '587'
+
+
+
+from:
+  email: e2dp.tecnologic@gmail.com
+
+message:
+  standard: Retorno do Ticket
