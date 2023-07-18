@@ -11,6 +11,7 @@ cloud:
     end-point:
       uri: msg-email-ecomerce
 
+
 spring:
   mail:
     properties:
