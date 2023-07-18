@@ -6,8 +6,8 @@ cloud:
     stack:
       auto: false
     credentials:
-      access-key: AKIA47MUMLJRHPOXRPAC
-      secret-key: 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
+      access-key: <KEY>
+      secret-key: <KEY>
     end-point:
       uri: msg-email-ecomerce
 
