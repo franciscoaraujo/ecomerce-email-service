@@ -35,6 +35,7 @@ public class SesConfig {
         return new SimpleEmailServiceMailSender(amazonSimpleEmailService);
     }
 
+
 //    @Bean
 //    public JavaMailSender javaMailSender(AmazonSimpleEmailService amazonSimpleEmailService) {
 //        return new SimpleEmailServiceJavaMailSender(amazonSimpleEmailService);

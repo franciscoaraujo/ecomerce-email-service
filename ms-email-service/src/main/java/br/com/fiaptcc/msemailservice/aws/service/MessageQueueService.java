@@ -61,7 +61,6 @@ public class MessageQueueService {
         log.info("Starting to send the e-mail...");
         Gson gson = new Gson();
         EmailMSgDto emailMSgDto = gson.fromJson(body, EmailMSgDto.class);
-
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
         simpleMailMessage.setFrom(fromEmail);
         simpleMailMessage.setTo(emailMSgDto.getEmail());
